@@ -1,0 +1,17 @@
+echo " Building the Docker image for the test container"
+echo "#################################################"
+echo""
+echo""
+echo " Running command sudo docker build -t container101 ."
+echo "#################################################"
+echo ""
+echo ""
+sudo docker build -t container101 .
+echo ""
+echo""
+echo "#################################################"
+echo "#################################################"
+echo "Checking the container is created"
+echo""
+echo""
+sudo docker images | grep container101
